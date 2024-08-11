@@ -1,0 +1,11 @@
+.Profile{
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    margin: 20px;
+    align-items: center;
+    max-width: 250px;
+    border: 2px solid #464444;
+    border-radius: 7px;
+    overflow: hidden;
+}
