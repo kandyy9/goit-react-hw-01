@@ -1,0 +1,19 @@
+.friendslistItem{
+    padding: 15px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.userName{
+    font-weight: 600;
+}
+
+.statusOnline{
+    color: rgb(44, 177, 44);
+}
+
+.statusOffline{
+    color: orangered;
+}
