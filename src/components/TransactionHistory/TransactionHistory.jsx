@@ -3,7 +3,7 @@ import TransactionRow from "../TransactionRow/TransactionRow";
 
 export default function TransactionHistory({ items }) {
   return (
-    <table>
+    <table className={css.table}>
       <thead>
         <tr>
           <th>Type</th>
