@@ -7,11 +7,16 @@ import transactions from "../../transactions.json";
 import TransactionHistory from "../TransactionHistory/TransactionHistory.jsx";
 
 export default function App() {
+  const { username, tag, location, avatar, stats } = userData[0];
   return (
     <div className={css.container}>
-      {userData.map((user, index) => (
-        <Profile key={index} user={user} />
-      ))}
+      <Profile
+        name={username}
+        tag={tag}
+        location={location}
+        image={avatar}
+        stats={stats}
+      />
       <FriendsList list={friends} />
       <TransactionHistory items={transactions}></TransactionHistory>
     </div>
